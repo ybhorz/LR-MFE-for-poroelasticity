@@ -1,0 +1,11 @@
+$1/  8$ & 7.54E+01 &  -- \\
+$1/ 16$ & 1.88E+01 & 2.01 \\
+$1/ 32$ & 4.68E+00 & 2.00 \\
+$1/ 64$ & 1.17E+00 & 2.00 \\
+$1/128$ & 2.92E-01 & 2.00 \\
+======== test4 ========
+ ux = vu*sin(pi*x)*(1-cos(pi*y))
+ uy= vu*(1-cos(2*pi*x))*sin(pi/2*y)
+ p = vp*cos(pi*x)*cos(pi*y)
+ method: LR Postprocessing: 2 index: 2 
+ lmd = 1 mu = 1 alph = 1 c0 = 0 k = 1e-06 vu = 0.1 vp = 1e+04

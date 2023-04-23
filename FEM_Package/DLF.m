@@ -1,5 +1,8 @@
 classdef DLF
-    % Double linear function.
+    % DLF: Double linear function.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+
     properties
         coef Fcn = Fcn; % Coefficient function.
         iTrl = 1; % The indice of the trial function space. (which variable)

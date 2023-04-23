@@ -1,5 +1,8 @@
 classdef GInt
-    % Gauss numerical integration  
+    % GInt: Gauss numerical integration  
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+
     properties
         point (:,:); % (By coloumn)
         coef;

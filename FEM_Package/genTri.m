@@ -1,5 +1,9 @@
 function [node,elem,edge,conn,elemCn] = genTri(domn,nSub)
 % genTri: generate triangulation.
+% Author: Bohan Yang
+% Email: ybh.orz@gmail.com
+
+% Input arguments.
 % domn: xmin, xmax, ymin, ymax
 % nSub: number of subdivision in each direction.
 %   nx = ny = nSub

@@ -1,6 +1,8 @@
 function eNorm = eNorm(msh,fE,appr,real,order,options)
-% Get the norm of error between approximation and real solutions. 
-% Note: Approxiamtion is represeted as the combination of coefficients and base functions in finte element space.
+% eNorm: Get the norm of error between approximation and real solutions. 
+%   Note: Approxiamtion is represeted as the combination of coefficients and base functions in finte element space.
+% Author: Bohan Yang
+% Email: ybh.orz@gmail.com
 
 % Input arguments.
 arguments

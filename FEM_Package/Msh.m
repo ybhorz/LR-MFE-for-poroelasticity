@@ -1,5 +1,8 @@
 classdef Msh
     % Msh : Mesh information.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+    
     properties
         node (:,:); % Coordinates of mesh nodes (By column).
         elem (:,:); % Vertices (node index) of mesh elements (By column). 

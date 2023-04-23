@@ -1,5 +1,8 @@
 classdef SLF
-    % Single linear function.
+    % SLF: Single linear function.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+
     properties
         load Fcn = Fcn; % Load function.
         iTst = 1; % The indice of the test function space. (which variable)

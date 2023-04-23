@@ -1,5 +1,7 @@
 function [Stiff,Load,nTrlNodes] = assemble(msh,trls,tsts,Auvs,Fvs,options)
-% Assemble the total stiffness matrix and load vector.
+% assemble: Assemble the total stiffness matrix and load vector.
+% Author: Bohan Yang
+% Email: ybh.orz@gmail.com
 
 % Input arguments.
 arguments

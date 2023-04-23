@@ -1,5 +1,8 @@
 classdef FE
     % FE : Finite element space.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+    
     properties
         nNode; % The number of FE nodes.
         node (:,:); % Node variables (node coordinates for lagrange element, while have no sense for other element.)

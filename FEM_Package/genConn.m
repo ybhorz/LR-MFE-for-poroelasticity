@@ -1,12 +1,17 @@
 function [conn,elemCn,edge] = genConn(elem,edge)
 % genConn: generate connection and element-connection information.
-%! Note: 2 dimension.
-%
+%   !Note: 2 dimension.
+% Author: Bohan Yang
+% Email: ybh.orz@gmail.com
+
+% Input arguments.
 % elem: vertices of mesh elements (By column).
 % edge: vertices of each part of edge (By column).
 %       -node 1
 %       -node 2
 %       -type (~=0): for example 1,2,3,4 (edge)
+
+% Output arguments.
 % conn (Conn): connection.
 %       Note: First nEdge connections are edges.
 %       -node 1

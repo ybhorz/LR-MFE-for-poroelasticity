@@ -1,5 +1,8 @@
 classdef Fcn
-    % Function.
+    % Fcn: Function.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+    
     % Fcn is a vector space over sym. Fcn = {f1(var,parm)*c1 + f2(var,parm)*c2 + ...}
     % Operator: 
     %   (Fcn,sym) -> Fcn : * \

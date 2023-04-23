@@ -1,5 +1,8 @@
 classdef Tf
-    % Transformation between original element and reference element.
+    % Tf: Transformation between original element and reference element.
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+
     properties
         refVar sym; % Reference variables.(By coloumn)
         orgVar sym; % Original variables.(By coloumn)

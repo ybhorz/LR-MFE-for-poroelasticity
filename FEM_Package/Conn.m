@@ -1,5 +1,8 @@
 classdef Conn
-    % Connection
+    % Conn: Connection
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
+
     properties
         node (:,:); % Vertices of connection (By coloumn);
                     % Note: Nodes are arranged in a certain order.

@@ -1,5 +1,7 @@
 classdef Base
-    % Base function
+    % Base: Base function
+    % Author: Bohan Yang
+    % Email: ybh.orz@gmail.com
     
     properties
         var sym; % Variables.(By coloumn)

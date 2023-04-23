@@ -1,5 +1,8 @@
 function divLn(mark,n,title)
-% Dividing line.
+% divLn: Dividing line.
+% Author: Bohan Yang
+% Email: ybh.orz@gmail.com
+
 if nargin == 2
     disp(repmat(mark,[1,n]));
 elseif nargin >= 3
